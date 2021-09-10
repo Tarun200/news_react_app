@@ -10,6 +10,8 @@ function NewsArticle({data})
             <span className="news_published">{data.publishedAt}</span><br />
             <span className="news_source">{data.source.name}</span>
 
+           
+
         </div>
     )
 }
